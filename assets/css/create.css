@@ -1,0 +1,137 @@
+
+
+body{
+	background: linear-gradient(to top, #0f0c29 , #302b63, #24243e);
+	    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.nav-line{
+	border: 1px solid transparent;
+	padding: 0.5rem 0.7rem;
+    color: #dee2e6;
+}
+nav.page-navbar.affix .nav-line {
+  color: #343a40;
+}
+
+.nav-img{padding-top: auto; padding-bottom: auto}
+.profile-dp{
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #fad02c;
+ }
+ .profile-user{
+ 	margin-left: 0.5rem;
+ }
+
+.input-item{
+	background: #effffe;
+	margin-top: 2%;
+    padding: 15px;
+	font-size: 16px;
+	color: #5E6472;
+	outline: none;
+    border: none;
+  
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+}
+.board-item{
+	margin-top: 3%;
+    padding: 12.5px;
+	font-size: 18px;
+	color: #5E6472;
+}
+
+.area-main{	
+	width: 1000px;
+	height: auto;
+	/*background: #b8d0da;*/
+	/*background-image:linear-gradient(-225deg, #a8edea 50%, #fed6e3 50%) ;*/
+	background-image :  linear-gradient(to top, #a8edea 20%, #fed6e3 80%);
+	/*#E3FDF5 50%, #FFE6FA 50%  */
+	/*linear-gradient(-225deg, #a8edea 50%, #fed6e3 50%)*/
+	/*linear-gradient(-225deg, #a0e9e7 50%, #fbcef2 50%)*/
+	margin: 90px auto 50px auto;
+	text-align: center;
+	border-radius: 0.5rem;
+	padding: 30px 10px 10px 10px;
+	/*box-shadow: 0 3px 80px rgba(173, 181, 189, 0.5), 0 0 10px rgba(173, 181, 189, 0.7) !important;*/
+}
+	
+
+.area-sub{
+	width: auto;
+	height: auto;
+	margin: 30px 60px 30px 60px;
+	padding: 20px 30px;
+	/*border: solid #a5d8dd;*/
+	border-radius: 0.5rem; 
+
+}
+
+.row{
+	margin: 0px;
+	column-gap: 0.5rem;
+}
+
+.area-left{
+	width: auto;
+	height: auto;
+	padding: 10px 10px;
+	/*border: solid #a5d8dd;*/
+	border-radius: 0.5rem; 
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.area-right{
+	width: auto;
+	height: 100%;
+	padding: 10px 20px;
+	margin-left: 5px;
+	/*border: solid #a5d8dd;*/
+	border-radius: 0.5rem; 
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-back{
+	float: left;
+	background:#a0d139 ;
+	border: none;
+}
+.btn-back:hover{
+	background: #466f6d;
+	color: #FFE6FA;
+	border: none
+}
+
+.btn-create{
+	float: right;
+	background:#a0d139 ;
+	border: none;
+	
+}
+.btn-create:hover{
+	background: #466f6d;
+	color: #FFE6FA;
+	border: none;
+}
+
+
+
+
+
+
+
+.arw{animation: motion 0.4s ease-in-out infinite alternate}
+
+@keyframes motion{
+	0%{
+		transform: translateY(3px)
+	}100%{
+		transform: translateY(6px)
+	}
+}
