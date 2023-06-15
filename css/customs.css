@@ -1,0 +1,249 @@
+/*Contact us*/
+.ct-link{
+    color: #1e2337;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+/*about-us page*/
+
+.sec1{background-color: #eaf0fc}
+.sec2{background-color: #d4dced ! important;}
+
+.ab-head-inside{font-size: 38px;
+    margin-bottom: 22px;
+}
+.ab-pos{
+    margin-bottom: 15px !important; 
+}
+.visit{
+    margin-left: 0.5rem;
+    padding: 0.25rem 1rem !important;
+    color: #212529;
+    background-color: #FAD02C;
+    border-color: #FAD02C;
+}
+.visit:hover{
+    background: #466f6d;
+    color: #FFE6FA;
+    border-color: #466f6d;
+}
+
+/*Icons*/
+.social-row{
+  margin-left: 0px !important;
+}
+.icon-all{width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+
+}
+
+.icon-link{
+  color: #b9840b;
+  height: 40px;
+  width: 40px;
+  margin-top: 0px;
+  margin-right: 5px;
+  float: left;
+  font-size: 28px !important
+
+}
+
+.icon-link:hover{
+    color: #7a58ff;
+    font-size: 32px !important;
+}
+.link-mail{color: #b9840b;}
+.link-mail:hover{color: #7a58ff;}
+
+
+/* Our Blogs Section */
+.sec-3-head{width: 100%;
+	text-align: center;
+	margin: auto;
+}
+.head-inside{font-size: 38px;
+	margin-bottom: 22px;
+}
+
+/*About us*/
+.head-about{font-size: 38px;
+   text-align: left;
+}
+
+/*.about-cont{}*/
+
+/* post filter */
+.post-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
+.filter-item{
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+ .active-filter{
+    background: #bdbdff;
+    color: var(--bg-color);
+    padding: 4px 10px;
+    border-radius: 4px;
+ }
+
+ /* posts */
+ .post{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    justify-content: center;
+    gap: 1.5rem;
+ }
+ .post-box{
+    background: var(--bg-color);
+    box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
+    padding: 15px;
+    border-radius: 0.5rem;
+
+ }
+ .post-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+ }
+ .category{
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--second-color);
+ }
+ .post-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    /* to remain title in 2 line */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+ }
+ .post-date{
+    display: flex;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    /*margin-top: 4px;*/
+
+ }
+ .post-description{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    /* to remain title in 2 line */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+ }
+ .profile{
+    display: flex;
+    align-items: center;
+     gap: 10px;
+     margin-top: 5px;
+ }
+ .profile-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid orangered;
+ }
+ .profile-name{
+    font-size: 0.82rem;
+    font-weight: 700;
+ }
+
+
+ .btn-blog{
+ 	margin: auto !important;
+ 	font-size: 1.2rem;
+
+ }
+ .font-paras{font-size: 17px;
+ margin-top: 30px;
+ margin-bottom: 10px }
+
+/*Header for other Pages*/
+
+.header-other {
+  background: #efefef url(../imgs/banner.png);
+  height: 398px;
+}
+.other-head{margin-bottom: 50px;}
+.home-other{}
+
+
+/*CSS of Blog.php pop-up section*/
+
+.pop-full{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1031;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.pop-main{
+  width: 80%; /* Could be more or less, depending on screen size */
+  background-image :  linear-gradient(to top, #a8edea 20%, #fed6e3 80%);
+  text-align: left;
+  border-radius: 0.5rem;
+  padding: 30px 30px 30px 30px;
+  margin: 7% auto;
+}
+
+.pop-inside{
+    border-radius: 0.5rem; 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.pop-category{text-align: left;}
+.pop-author{}
+
+/* The Close Button */
+.close {
+  color: #466f6d;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.read-more{
+    color: #FAD02C;
+    text-decoration: none;
+    background-color: transparent;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
